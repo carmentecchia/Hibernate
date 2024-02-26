@@ -20,7 +20,7 @@ public class Enrollments {
     @ManyToOne(fetch = FetchType.LAZY)
     private Students students;
 
-    @ManyToMany
+    @ManyToOne
     private List<Classes> classes;
 
 }
